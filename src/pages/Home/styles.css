@@ -1,0 +1,91 @@
+.conteudo{
+    position: relative;
+
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+}
+
+.background{
+    height: 90vh;
+    position: fixed;
+    left: 0;
+}
+
+.info{
+    width: 60%;
+    margin-right: 10%;
+    margin-top: 40px;
+    color: #fff;
+}
+
+input{
+    border: 1px solid #999;
+    border-radius: 20px;
+    min-width: 130px;
+    width: 70%;
+    margin-right: 12px;
+    margin-bottom: 12px;
+    background: transparent;
+    font-size: 18px;
+    padding: 10px;
+    color: #fff;
+}
+
+button{
+    background: #2D333B;
+    border: 1px solid #999;
+    border-radius: 20px;
+    min-width: 130px;
+    font-size: 18px;
+    padding: 10px;
+    color:#999;
+    margin-bottom: 12px;
+}
+
+button:hover{
+    border: 1px solid #2D333B;
+    background: #999;
+    color:#2D333B;
+}
+button:active{
+    border: 1px solid #999;
+    background: #2D333B;
+    color:#999;
+}
+
+h4{
+    margin-top: 15px;
+    text-align: center;
+    font-size: 24px;
+}
+.perfil{
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.profile{
+    border-radius: 20vh;
+    min-width: 80px;
+    width: 15vh;
+    min-height: 80px;
+    height: 15vh;
+    border: 1px solid #E5E5E5;
+    margin-right: 10px;
+}
+
+.perfil h3 {
+    color: #999;
+    font-size: 24px;
+}
+
+.perfil span {
+    color: #999;
+    font-size: 14px;
+}
+
+.perfil p {
+    color: #999;
+    font-size: 12px;
+    margin-top: 10px;
+}
